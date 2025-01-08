@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <!--Place script at end of body bcz it improves speed bcz of code interpretation-->
+        <script>
+            function Myfunc(){
+                document.getElementById("hmm").innerHTML="changed thru func"        
+            }
+         <!--popups-->
+            window.alert(33+36) 
+            confirm("Exceeded Limit")
+            prompt(null) 
+        </script>
+    </head>
+    <body>
+
+        <h1 id="hmm">this is my 1st js code</h1>
+        <button type="button" onclick='document.getElementById("hmm").innerHTML="successfully exec"'> click this</button>
+        <button onclick="document.getElementById('hmm').style.fontSize='10px'">change font size</button>
+        <button onclick="Myfunc()">function button</button>
+        <button onclick="console.log(33+36)"> console button</button>
+
+        <!--there r 4 display possibilities
+            1.innerHTML
+            2.document.write() --overwrites all the content when called
+            3.alert()
+            4.console.log()-->
+    </body>
+</html>

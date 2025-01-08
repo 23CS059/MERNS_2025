@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <style>
+            div{
+                width: 200px;
+                height: 100px;
+                padding: 40px;
+                
+                border: 10px solid greenyellow;
+                margin: 10px;          
+                margin-left: 590;
+                margin-top: 230;    
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1 type="hidden" id="yolo"></h1>
+        <div>
+            User Name: <input type="text" placeholder="Name">
+            Password: <input type="password" placeholder="Password">
+
+            <button onclick="document.write(Myfunc())">login</button>
+        </div>
+        <script>
+            function Myfunc(){
+               return document.getElementById('yolo').innerHTML='Login Successfull'
+            }
+        </script>
+    </body>
+</html>
