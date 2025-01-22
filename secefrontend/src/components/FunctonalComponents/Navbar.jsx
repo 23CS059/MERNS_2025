@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+import "../../../css/Navbar.css"
 const Navbar = () => {
     var styling={textDecoration:"underline",
         color:"blue",
@@ -8,10 +10,10 @@ const Navbar = () => {
         <header>
         <nav>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Gallery</li>
+            <li><Link class="link" to="/">Home</Link></li>
+            <li><Link class="link" to="/About">About</Link></li>
+            <li><Link class="link" to="/Contact">Contact</Link></li>
+            <li><Link class="link" to="/Gallery">Gallery</Link></li>
         </ul>
         </nav>
         </header>
