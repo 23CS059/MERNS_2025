@@ -4,19 +4,26 @@ import ClassCompEG from "./components/classComponents/ClassCompEG";
 import Gallery from "./components/FunctionalComponents/Gallery";
 import Contact from "./components/FunctionalComponents/Contact";
 
-function App() {
+import Navbar from './components/components/FunctionalComponents/Navbar'
+import {BrowserRouter ,Routes ,Route} from 'react-router-dom'
+ function App() {
   return (
+    <>
+    <BrowserRouter>
+    <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/About" element={<About />}></Route>
+        <Route path="/ClassCompEG" element={<ClassCompEG />}></Route>
+      </Routes>
+      </BrowserRouter>
     <section>
-    <Home /><hr />
-      <About /><hr />
-      <h2>Without Props</h2>
-      <Gallery /><hr />
-      <h2>With Props</h2>
-      <Gallery page="Gallery" img="SECE Logo"/><hr />
-      <Contact /><hr />
-    <ClassCompEG />
-  </section>
-);
+    <Home/>
+    <About/>
+    <ClassCompEG/>
+    <Gallery image="sece Logo" page="Gallery"/>
+    <Constact/>
+    </section>
+    </>
+)
 }
-
-export default App;
