@@ -1,22 +1,19 @@
-ul{
-    display:flex;
+ol{
+    display: flex;
     justify-content: space-around;
     list-style-type: none;
-    text-decoration: none;
-    margin:0;
+    margin: 0;
     padding: 10px;
     background-color: chocolate;
-    color: rgb(17, 224, 45);
-
+    color: aliceblue;
 }
 .link{
     text-decoration: none;
-    color: rgb(168, 206, 28);
+    color: aliceblue;
+    padding: 3px;
 }
 .link:hover{
-    background-color: rgb(47, 130, 202);
+    background-color: aliceblue;
     color: chocolate;
     border-radius: 10px;
-    padding: 5px;
-
 }
