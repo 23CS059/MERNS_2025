@@ -11,6 +11,12 @@ const Navbar = () => {
           <li><Link to='/gallery' className="link">Gallery</Link></li>
           <li><Link to='/contact' className="link">Contact</Link></li>
           <li><Link to='/sign-up' className="link">Signup</Link></li>
+          <li>
+            <link to='/use-effect' className="link">UseEffect</link>
+          </li>
+          <li>
+            <link to='/use-effect' className="link">UseEffect</link>
+          </li>
         </ol>
       </nav>
     </header>

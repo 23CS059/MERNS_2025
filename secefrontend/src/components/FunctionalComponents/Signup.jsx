@@ -1,3 +1,4 @@
+import '../../css/signUp.css'
 const Signup = () => {
   return (
     <div>
