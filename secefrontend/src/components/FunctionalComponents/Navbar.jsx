@@ -29,6 +29,8 @@ const Navbar = ({ onLogout }) => {
                     <li><Link to='/UseState' className="link">UseState</Link></li>
                     <li><Link to='/UseEffect' className="link">UseEffect</Link></li>
                     <li><Link to='/use-effectapi' className="link">UseEffectAPI</Link></li>
+                    <li><Link to='/use-ref' className="link">UseRef</Link></li>
+                    <li><Link to='/use-memo' className="link">UseMemo</Link></li>
                     <li><Link to='/useimg' className="link"></Link></li>
                     <li><Link to='/signUp' className="link">SignUp</Link></li>
                 </ol>

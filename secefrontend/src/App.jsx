@@ -1,8 +1,7 @@
 import Home from "./components/FunctionalComponents/Home";
 import About from "./components/FunctionalComponents/About";
-
+import React, { useRef } from 'react';
 import Gallery from "./components/FunctionalComponents/Gallery";
-
 import Contact from "./components/FunctionalComponents/Contact";
 import Navbar from "./components/FunctionalComponents/Navbar";
 import UseState from "./components/FunctionalComponents/Hooks/UseState";
@@ -11,6 +10,9 @@ import UseEffect from "./components/FunctionalComponents/Hooks/UseEffect";
 import UseEffectApi from "./components/FunctionalComponents/Hooks/UseEffectAPI";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import UseEffectAPIimage from "./components/FunctionalComponents/Hooks/UseEffectAPIimage";
+import UseRef from "./components/FunctionalComponents/Hooks/UseRef";
+import UseMemo from "./components/FunctionalComponents/Hooks/UseMemo";
+import UseCallback from "./components/FunctionalComponents/Hooks/UseCallback";
 function App() { 
   return (
     <BrowserRouter>
@@ -24,6 +26,9 @@ function App() {
           <Route path="/UseEffect" element={<UseEffect/>}></Route>
           <Route path="/use-effectapi" element={<UseEffectApi/>}></Route>
           <Route path="/useimg" element={<UseEffectAPIimage/>}></Route>
+          <Route path="/use-ref" element={<UseRef />}></Route>
+          <Route path="/use-memo" element={<UseMemo/>}></Route>
+          <Route path="/use-call" element={<UseCallback/>}></Route>
           <Route path="/Signup" element={<Signup/>}></Route>
         </Routes>
     </BrowserRouter>
