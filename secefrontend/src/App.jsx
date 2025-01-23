@@ -10,6 +10,7 @@ import Signup from "./components/FunctionalComponents/Signup";
 import UseEffect from "./components/FunctionalComponents/Hooks/UseEffect";
 import UseEffectApi from "./components/FunctionalComponents/Hooks/UseEffectAPI";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
+import UseEffectAPIimage from "./components/FunctionalComponents/Hooks/UseEffectAPIimage";
 function App() { 
   return (
     <BrowserRouter>
@@ -19,13 +20,11 @@ function App() {
           <Route path='/About' element={<About/>}></Route>
           <Route path="/Gallery" element={<Gallery image="SECE logo" page="Gallery"/>}></Route>
           <Route path="/Contact" element={<Contact/>}></Route>
-          <Route path="/use-state" element={<Contact />}></Route>
-         
-          <Route path="/Signup" element={<Signup/>}></Route>
           <Route path="/UseState" element={<UseState/>}></Route>
           <Route path="/UseEffect" element={<UseEffect/>}></Route>
           <Route path="/use-effectapi" element={<UseEffectApi/>}></Route>
-          <Route path="/Login" element={<Login/>}></Route>
+          <Route path="/useimg" element={<UseEffectAPIimage/>}></Route>
+          <Route path="/Signup" element={<Signup/>}></Route>
         </Routes>
     </BrowserRouter>
         )
