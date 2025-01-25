@@ -30,12 +30,14 @@ const Navbar = ({ onLogout }) => {
                     <li><Link to='/use-reducer' className="link">UseReducer</Link></li>
                     <li><Link to='/useimg' className="link">UseAPIimg</Link></li>
                     <li><Link to='/ReactLifecycleMethods' className="link">ReactLifecycleMethods</Link></li>
+                    <li><Link to="/Student" class="link">Student</Link></li>
                                    
                 </ol>)}
                 </div>                       
-            <li><Link to='/signUp' className="link">SignUp</Link></li>
-            </ul>                
-            </nav>
+                <li><Link to="/Memo" class="link">React.memo</Link></li>
+                <li><Link to='/signUp' className="link">SignUp</Link></li>
+                </ul>                
+                </nav>
         </header>
         )
 }

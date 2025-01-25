@@ -15,6 +15,8 @@ import UseMemo from "./components/FunctionalComponents/Hooks/UseMemo";
 import UseCallback from "./components/FunctionalComponents/Hooks/UseCallback";
 import UseReducer from "./components/FunctionalComponents/Hooks/UseReducer";
 import ReactLifecycleMethods from "./components/classComponents/ReactLifeCycleMethods";
+import Student from "./components/FunctionalComponents/Hooks/Student";
+import Memo from "./components/FunctionalComponents/Menoization/Memo";
 function App() { 
   return (
     <BrowserRouter>
@@ -31,8 +33,11 @@ function App() {
           <Route path="/useimg" element={<UseEffectAPIimage/>}></Route>
           <Route path="/use-ref" element={<UseRef />}></Route>
           <Route path="/use-memo" element={<UseMemo/>}></Route>
-          <Route path="/use-call" element={<UseCallback/>}></Route>
-          <Route path="/use-reducer" element={<UseReducer/>}></Route>          <Route path="/Signup" element={<Signup/>}></Route>
+          <Route path="/use-call" element={<UseCallback />}></Route>
+          <Route path="/use-reducer" element={<UseReducer />}></Route> 
+          <Route path="/Student" element={<Student />}></Route>
+          <Route path='/Memo' element={<Memo />}></Route> 
+          <Route path="/Signup" element={<Signup />}></Route>
         </Routes>
     </BrowserRouter>
         )
