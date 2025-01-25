@@ -47,4 +47,4 @@ const Navbar = ({ onLogout }) => {
         )
 }
 
-export default Navbar;jjjj
+export default Navbar;
