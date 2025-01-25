@@ -29,6 +29,7 @@ const Navbar = ({ onLogout }) => {
                     <li><Link to='/use-call' className="link">UseCallback</Link></li>
                     <li><Link to='/use-reducer' className="link">UseReducer</Link></li>
                     <li><Link to='/useimg' className="link">UseAPIimg</Link></li>
+                    <li><Link to='/ReactLifecycleMethods' className="link">ReactLifecycleMethods</Link></li>
                                    
                 </ol>)}
                 </div>                       
@@ -39,4 +40,4 @@ const Navbar = ({ onLogout }) => {
         )
 }
 
-export default Navbar;
+export default Navbar;jjjj

@@ -14,6 +14,7 @@ import UseRef from "./components/FunctionalComponents/Hooks/UseRef";
 import UseMemo from "./components/FunctionalComponents/Hooks/UseMemo";
 import UseCallback from "./components/FunctionalComponents/Hooks/UseCallback";
 import UseReducer from "./components/FunctionalComponents/Hooks/UseReducer";
+import ReactLifecycleMethods from "./components/classComponents/ReactLifeCycleMethods";
 function App() { 
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ function App() {
           <Route path='/About' element={<About/>}></Route>
           <Route path="/Gallery" element={<Gallery image="SECE logo" page="Gallery"/>}></Route>
           <Route path="/Contact" element={<Contact/>}></Route>
+          <Route path="/ReactLifecycleMethods" element={<ReactLifecycleMethods />}></Route>
           <Route path="/UseState" element={<UseState/>}></Route>
           <Route path="/UseEffect" element={<UseEffect/>}></Route>
           <Route path="/use-effectapi" element={<UseEffectApi/>}></Route>
