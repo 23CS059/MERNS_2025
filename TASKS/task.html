@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Answers</title>
+</head>
+<body>
+    <h1>FAQs</h1>
+    <ul>
+        <li>
+            <strong>Q: How does the content and border interaction work in the Box Model?</strong>
+            <p><strong>A:</strong> The border moves inward toward the content, while content moves outward toward the padding and beyond.</p>
+        </li>
+        <li>
+            <strong>Q: Name the parts of the Box Model.</strong>
+            <p><strong>A:</strong> Content, padding, border, and margin.</p>
+        </li>
+        <li>
+            <strong>Q: Why is the 'git commit' command not appearing after adding a file, and instead, the unstage command is shown?</strong>
+            <p><strong>A:</strong> This happens because the files are already staged, meaning they are prepared and waiting for a commit.</p>
+        </li>
+        <li>
+            <strong>Q: What changes occur before and after the first push in Git?</strong>
+            <p><strong>A:</strong> Before the initial push, there’s no connection between your local repository and the remote repository. After the first push, a link is established between the two.</p>
+        </li>
+        <li>
+            <strong>Q: How does the browser assign the title to the head and h1 to the body for unstructured HTML?</strong>
+            <p><strong>A:</strong> The browser follows default parsing rules, automatically placing the title tag in the head and the h1 tag in the body section.</p>
+        </li>
+        <li>
+            <strong>Q: What’s the distinction between the href and src attributes, and why are they used with different tags?</strong>
+            <p><strong>A:</strong> The <code>href</code> attribute is used in anchor tags for navigation to external resources, while <code>src</code> is used in image tags to embed resources directly into the webpage.</p>
+        </li>
+        <li>
+            <strong>Q: What do the ellipses (...) in if...else and do...while represent?</strong>
+            <p><strong>A:</strong> The three dots are placeholders, often used in documentation to signify that additional logic or code should go there.</p>
+        </li>
+        <li>
+            <strong>Q: How do the spread and rest operators differ?</strong>
+            <p><strong>A:</strong> The spread operator (<code>...</code>) unpacks array or object elements, while the rest operator gathers multiple elements into an array when used in function parameters.</p>
+        </li>
+        <li>
+            <strong>Q: Why does a 'for...in' loop show undefined when accessing an object's property using the dot operator?</strong>
+            <p><strong>A:</strong> This occurs because the dot operator looks for a property literally named "key," rather than dynamically accessing the value stored in the key variable.</p>
+        </li>
+        <li>Why does using the dot operator in a "for-in" loop return undefined for object properties?</li>
+        <p>The reason is that <code>obj.key</code> tries to access a property explicitly named "key" rather than dynamically referencing the value stored in the <code>key</code> variable.</p>
+        
+        <li>What is the function of Strict Mode in React?</li>
+        <p>StrictMode in React is a tool for identifying potential issues in an application. It performs extra checks and provides warnings for components during development, helping developers adopt best practices, avoid legacy APIs, and improve code robustness.</p>
+        
+        <li>How does WhatsApp generate revenue?</li>
+        <p>Revenue generation details are not explicitly listed.</p>
+        
+        <li>Explain linting errors.</li>
+        <p>Linting errors are coding issues flagged by linting tools. These errors typically highlight inconsistencies with coding standards, styling conventions, or best practices, enhancing code quality and preventing possible bugs.</p>
+        </ul>
+        <div>
+            <h2>how to use "setOnInsert in mongoDB"?</h2>
+            <p>The $setOnInsert operator in MongoDB is used in conjunction with the update or updateOne/updateMany methods with the upsert option set to true. 
+                It allows you to specify fields that should be set only when a new document is inserted. 
+                If the document already exists, $setOnInsert does nothing.</p>
+            <p><strong> works with upsert: true:</strong>
+                If no document matches the filter, MongoDB inserts a new document and applies the $setOnInsert fields.
+                If a document matches, $setOnInsert is ignored.
+                <br>
+                <strong>Does not overwrite existing fields:</strong>
+                Fields specified in $setOnInsert are only applied during insertion, not during updates.
+            </p>
+        </div>
+        </body>
+        
+</html>
